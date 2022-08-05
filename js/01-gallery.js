@@ -49,7 +49,7 @@ function onGalleryContainerClick(event) {
   );
   modal.show();
   function modalCloseHandler(event) {
-    if (event.key === "Escape") {
+    if (event.code === "Escape") {
       modal.close();
     }
   }
